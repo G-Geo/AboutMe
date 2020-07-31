@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(243, 137, 111, 0.973);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 30% 25% 5% 20% 5%;
+}
+
+header {
+    font-family: 'Bungee Inline', cursive;
+    font-size: .8em;
+    margin-left: 20%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+}
+h1 {
+    margin-left: -20pt;
+    font-style: bold;
+    border:solid 4pt black;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    margin-left: 10pt;
+    font-style: italic;
+}
+h3 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 1em;
+} 
+p {
+    font-family: 'Bungee', cursive;
+    font-size: .8em;
+}
+main {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+}
+#profilepic {
+    padding-left: 10%;
+    height: 90%;
+    width: 90%;
+}
+
+
+
+
+
+.bottomBackground {
+    display: grid;
+    background-color: rgba(50, 139, 90, 0.678);
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 8;
+    grid-column-end: 3;
+}
+.aboutMe {
+    /**margin-top: 100pt;**/
+    font-family: 'Bungee Inline', cursive;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 50pt;
+}
+article {
+    /**margin-top: 100pt;**/
+    grid-row-start: 5;
+    grid-column-start: 2;
+    padding: 50pt;
+    margin-left: 50pt;
+}
+
+button {
+    font-family: 'Bungee Inline', cursive;
+    background-color: rgba(243, 137, 111, 0.973);
+    height: 20%;
+    width: 20%;
+    grid-column-start: 2;
+    grid-row-start:7;
+    margin-top: 27%;
+    margin-left: 75%;
+}
